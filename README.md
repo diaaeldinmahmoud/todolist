@@ -1,16 +1,61 @@
-# todolist
+# Flutter Todo List
 
-A new Flutter project.
+A simple and elegant Todo List application built with Flutter.
+
+## Features
+
+- Add new tasks with a title
+- Mark tasks as completed (with strikethrough)
+- Delete tasks
+- Completed tasks are sorted to the end of the list
+- Responsive and modern UI
+
+## Screenshots
+
+_Add your screenshots here!_
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Dart SDK (included with Flutter)
+- An IDE like [VS Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/todolist.git
+   cd todolist
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Run the app:**
+   ```sh
+   flutter run
+   ```
+
+## Project Structure
+
+- `lib/main.dart` - App entry point
+- `lib/screens/HomeView.dart` - Main screen for managing todos
+- `lib/models/taskmodel.dart` - Task data model
+- `lib/widgets/todotile.dart` - Widget for displaying each todo item
+
+## Customization
+
+- Update the app icon in `lib/assets/todo icon.png`
+- Modify UI colors and styles in the widget files
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ using [Flutter](https://flutter.dev/)
